@@ -1,0 +1,27 @@
+* {
+    font-family: "Jua", sans-serif;
+    text-align: center;
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: -8px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.sign-list {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* width: 80%; */
+}
+
+.sign-list > div{
+    width: 300px;
+    height: 300px;
+}
