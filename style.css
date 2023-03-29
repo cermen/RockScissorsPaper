@@ -18,10 +18,17 @@ p {
     list-style-type: none;
     flex-direction: row;
     justify-content: space-evenly;
-    /* width: 80%; */
+    width: 80%;
+    margin: auto;
 }
 
-.sign-list > div{
-    width: 300px;
-    height: 300px;
+.sign-list > div {
+    width: 200px;
+    height: 200px;
+    /* margin: 0 40px; */
+}
+
+.sign-list > div > img {
+    width: 150px;
+    height: 150px;
 }
