@@ -32,8 +32,17 @@ p {
     margin: auto;
 }
 
-.sign > img {
-    width: 120px;
-    height: 120px;
+.sign > i {
     background-color: white;
+    font-size: 72pt;
+}
+
+.sign:hover,
+.sign > i:hover {
+    background-color: lightblue;
+}
+
+.sign:active,
+.sign > i:active {
+    background-color: skyblue;
 }
