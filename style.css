@@ -37,12 +37,18 @@ p {
     font-size: 72pt;
 }
 
-.sign:hover,
-.sign > i:hover {
+.sign:hover {
     background-color: lightblue;
 }
 
-.sign:active,
-.sign > i:active {
+.sign:hover i {
+    background-color: lightblue;
+}
+
+.sign:active {
+    background-color: skyblue;
+}
+
+.sign:active i {
     background-color: skyblue;
 }
