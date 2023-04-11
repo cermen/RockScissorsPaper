@@ -21,10 +21,20 @@
     <body>
         <h1>가위바위보 게임</h1>
         <p>어느 것을 낼까요?</p>
-        <div class="sign-list">
-            <div class="sign"><i class="fas fa-light fa-hand-scissors fa-rotate-90"></i></div>
-            <div class="sign"><i class="fas fa-light fa-hand-back-fist"></i></div>
-            <div class="sign"><i class="fas fa-light fa-hand"></i></div>
+        <div class="sign-buttons">
+            <div class="button">
+                <input type="radio" name="rGroup" value="2" id="scissors" checked="checked"/>
+                <label for="scissors"><div class="sign"><i class="fas fa-light fa-hand-scissors fa-rotate-90"></i></div></label>
+            </div>
+            <div class="button">
+                <input type="radio" name="rGroup" value="1" id="rock"/>
+                <label for="rock"><div class="sign"><i class="fas fa-light fa-hand-back-fist"></i></div></label>
+            </div>
+            <div class="button">
+                <input type="radio" name="rGroup" value="3" id="paper"/>
+                <label for="paper"><div class="sign"><i class="fas fa-light fa-hand"></i></div></label>
+            </div>
         </div>
+        <button id="confirm">내자!</button>
     </body>
 </html>

@@ -13,12 +13,16 @@ p {
     font-size: 24px;
 }
 
-.sign-list {
+.sign-buttons {
     display: flex;
     justify-content: space-evenly;
     width: 80%;
     margin: auto;
 }
+
+/* .button > input {
+    display: none;
+} */
 
 .sign {
     display: flex;
@@ -27,7 +31,7 @@ p {
     width: 200px;
     height: 200px;
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 50%;
     margin: auto;
 }
@@ -51,4 +55,22 @@ p {
 
 .sign:active i {
     background-color: skyblue;
+}
+
+.button > input:checked > label > div {
+    background-color: skyblue;
+}
+
+.button > input:checked > label > div > i {
+    background-color: skyblue;
+}
+
+#confirm {
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    font-size: 24pt;
+    margin-top: 24px;
+    border: transparent;
+    border-radius: 12px;
 }
